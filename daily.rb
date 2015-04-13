@@ -15,7 +15,7 @@ def make_file_with_file_path( file_path )
 end
 
 def open_file( path_and_file_name )
-    system "/Applications/SublimeText2.app/Contents/SharedSupport/bin/subl -a #{ path_and_file_name }"
+    system "#{ MemoPath::EDITOR_PATH } #{ path_and_file_name }"
 end
 
 path_and_file_name = MemoPath::MEMO_DIR_DAILY + file_name

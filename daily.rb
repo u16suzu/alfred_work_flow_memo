@@ -8,28 +8,15 @@ def file_name
 end
 
 def make_file_with_file_path( file_path )
-    # todo :
-     # ファイルが存在する場合は作らないようにしたほうがよいかもしれないけれども。
-     # 今のままでも上書きで新規作成されることはないので問題は無い。
-
-     p 'file exist?'
-     p file_path
-    p File.exist? file_path
-     p '----pfile exist?'
-
-
     unless( File.exist? (file_path))
-        p system "touch #{ file_path }"
-        p system "cat template_daily.md > #{ file_path }"
+        system "touch #{ file_path }"
+        system "cat template_daily.md > #{ file_path }"
     end
 end
 
 def open_file( path_and_file_name )
-  p system "/Applications/SublimeText2.app/Contents/SharedSupport/bin/subl -a #{ path_and_file_name }"
+    system "/Applications/SublimeText2.app/Contents/SharedSupport/bin/subl -a #{ path_and_file_name }"
 end
-
-p file_name
-p MemoPath::MEMO_DIR_DAILY
 
 path_and_file_name = MemoPath::MEMO_DIR_DAILY + file_name
 

@@ -10,6 +10,7 @@ end
 def make_file_with_file_path( file_path )
     unless( File.exist? (file_path))
         system "touch #{ file_path }"
+        system "cat template_monthly.md > #{ file_path }"
     end
 end
 

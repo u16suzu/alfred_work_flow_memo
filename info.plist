@@ -58,9 +58,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string># causion! : you need change sublime exe file name about space.
-
-/Applications/SublimeText2.app/Contents/SharedSupport/bin/subl -a ~/workMemo/12_Memo/"{query}"</string>
+				<string>/usr/local/bin/atom ~/workMemo/12_Memo/"{query}"</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>

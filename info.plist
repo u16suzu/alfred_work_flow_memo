@@ -53,6 +53,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string># causion! : you need change sublime exe file name about space.
+
+/Applications/SublimeText2.app/Contents/SharedSupport/bin/subl -a ~/workMemo/12_Memo/"{query}"</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>DA928E79-C556-4131-BDCA-DE8E56145B82</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -72,25 +93,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string># causion! : you need change sublime exe file name about space.
-
-/Applications/SublimeText2.app/Contents/SharedSupport/bin/subl -a ~/memoWork/12_Memo/"{query}"</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>DA928E79-C556-4131-BDCA-DE8E56145B82</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
@@ -129,25 +133,6 @@ ruby ./daily.rb</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string># causion! : you need change sublime exe file name about space.
-
-ruby ./monthly.rb</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>453BE139-782E-4CEC-BBCA-E3B8DE7E3B61</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -161,6 +146,27 @@ ruby ./monthly.rb</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>442FFD89-FA37-4DE5-9A45-EB24FF0A3079</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string># causion! : you need change sublime exe file name about space.
+
+ruby ./monthly.rb</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>453BE139-782E-4CEC-BBCA-E3B8DE7E3B61</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>

@@ -58,7 +58,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>/usr/local/bin/atom ~/workMemo/12_Memo/"{query}"</string>
+				<string>ruby ./new.rb "{query}"</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>

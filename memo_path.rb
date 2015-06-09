@@ -6,4 +6,5 @@ module MemoPath
   MEMO_DIR_DAILY        = MEMO_DIR + "daily/"
   MEMO_DIR_MONTHLY = MEMO_DIR + "monthly/"
   MEMO_DIR_ANNUAL    = MEMO_DIR + "annual/"
+  MEMO_DIR_OTHER = "/Users/u16suzu/workMemo/12_memo/"
 end

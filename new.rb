@@ -1,6 +1,7 @@
 require 'Date'
 require './memo_path'
 
+
 def file_name
   name = ARGV[0]
   if File.extname( name ).empty?

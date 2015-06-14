@@ -23,4 +23,3 @@ path_and_file_name = MemoPath::MEMO_DIR_DAILY + file_name
 make_file_with_file_path( path_and_file_name )
 
 open_file( path_and_file_name )
-

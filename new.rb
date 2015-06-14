@@ -1,4 +1,3 @@
-require 'Date'
 require './memo_path'
 require './memo_util'
 

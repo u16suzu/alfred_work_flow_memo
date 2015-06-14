@@ -2,7 +2,6 @@ require 'Date'
 require './memo_path'
 require './memo_util'
 
-# 今日の日付のファイルを指定ディレクトリに作成する.
 
 def file_name
   DateTime.now.strftime("%Y%m%d") + '.md'

@@ -2,7 +2,6 @@ require 'Date'
 require './memo_path'
 require './memo_util'
 
-# 今月のファイルを指定ディレクトリに作成する.
 
 def file_name
   DateTime.now.strftime("%Y%m") + '_monthly.md'

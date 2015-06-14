@@ -13,14 +13,8 @@ def file_name
   end
 end
 
-def make_file_with_file_path( file_path )
-    unless( File.exist? (file_path))
-        system "touch #{ file_path }"
-    end
-end
-
 path_and_file_name = MemoPath::MEMO_DIR_OTHER + file_name
 
-make_file_with_file_path( path_and_file_name )
+MemoUtil::make_file_with_file_path( path_and_file_name, nil )
 
 MemoUtil::open_file( path_and_file_name )

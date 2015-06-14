@@ -8,7 +8,7 @@ def file_name
 end
 
 def template_file_path
-  MemoPath::MEMO_DIR_TEMPLATE + '/template_monthly.md'
+  MemoPath::MEMO_DIR_TEMPLATE + '/monthly.md'
 end
 
 

@@ -13,6 +13,7 @@ def file_name
   end
 end
 
+
 path_and_file_name = MemoPath::MEMO_DIR_OTHER + file_name
 
 MemoUtil::make_file_with_file_path( path_and_file_name, nil )

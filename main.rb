@@ -4,15 +4,14 @@ require './lib/monthly.rb'
 
 
 command = ARGV[0]
+new_file_name = ARGV[1]
 
 case command
 when "new"
-  command_target = New.new
+  New.new.make_file( new_file_name )
 when "daily"
-  command_target = Daily.new
+  Daily.new.make_file
 when "monthly"
-  command_target = Monthly.new
+  Monthly.new.make_file
 else
 end
-
-command_target.make_file

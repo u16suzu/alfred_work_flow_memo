@@ -39,6 +39,17 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>E4A29267-50F5-4D6A-A493-D6271B222A1D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5CEDFEC2-4B40-4490-AF45-F6DCF81FE903</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>u16suzu</string>
@@ -50,25 +61,6 @@
 	<string>sublime_u16suzu_version2.0</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string>ruby ./main.rb "new" "{query}"</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>DA928E79-C556-4131-BDCA-DE8E56145B82</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -85,6 +77,25 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>E2B44982-F655-46CC-8E96-2388125E159A</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>ruby ./main.rb "new" "{query}"</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>DA928E79-C556-4131-BDCA-DE8E56145B82</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -164,6 +175,44 @@
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>annual</string>
+				<key>text</key>
+				<string>annual</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>E4A29267-50F5-4D6A-A493-D6271B222A1D</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>ruby ./main.rb annual</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>5CEDFEC2-4B40-4490-AF45-F6DCF81FE903</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -184,6 +233,11 @@
 			<key>ypos</key>
 			<real>180</real>
 		</dict>
+		<key>5CEDFEC2-4B40-4490-AF45-F6DCF81FE903</key>
+		<dict>
+			<key>ypos</key>
+			<real>420</real>
+		</dict>
 		<key>D9BC15D2-1EB0-4E19-9FDB-639298BAA450</key>
 		<dict>
 			<key>ypos</key>
@@ -198,6 +252,11 @@
 		<dict>
 			<key>ypos</key>
 			<real>50</real>
+		</dict>
+		<key>E4A29267-50F5-4D6A-A493-D6271B222A1D</key>
+		<dict>
+			<key>ypos</key>
+			<real>420</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>

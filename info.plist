@@ -96,7 +96,7 @@
 				<key>escaping</key>
 				<integer>127</integer>
 				<key>script</key>
-				<string>ruby ./daily.rb</string>
+				<string>ruby ./main.rb daily</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -129,6 +129,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>ruby ./main.rb monthly</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>453BE139-782E-4CEC-BBCA-E3B8DE7E3B61</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -142,25 +161,6 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>442FFD89-FA37-4DE5-9A45-EB24FF0A3079</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string>ruby ./monthly.rb</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>453BE139-782E-4CEC-BBCA-E3B8DE7E3B61</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>

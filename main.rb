@@ -1,7 +1,7 @@
-require './lib/new.rb'
-require './lib/daily.rb'
-require './lib/monthly.rb'
-
+require './lib/new'
+require './lib/daily'
+require './lib/monthly'
+require './lib/annual'
 
 command = ARGV[0]
 new_file_name = ARGV[1]
@@ -13,5 +13,7 @@ when "daily"
   Daily.new.make_file
 when "monthly"
   Monthly.new.make_file
+when "annual"
+  Annual.new.make_file
 else
 end
